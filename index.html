@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <Title>Plants</Title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="C:\Users\katie\Desktop\2023 Coding Projects\C# Projects\PlantsWebApp\script.js"></script>
+
+</head>
+
+<body onload="showDateTime(); setInterval('showDateTime()', 1000)">
+    <header>
+        <div class="dropdown-container">
+            <buttom class="dropdown-btn" id="plantInfo">
+                Plant Info</button>
+                <div class="dropdown-content">
+                    <a href="#">Water needs</a>
+                    <a href="#">Sun needs</a>
+                    <a href="#">Soil needs</a>
+                </div>
+        </div>
+
+        <div class="showDateTimeContainer">
+            <div class="showDate" id="showDate"></div>
+            <div class="showTime" id="showTime"></div>
+        </div>
+        <script src="./showDateTime.js"></script>
+        </div>
+        </div> 
+    </header>
+
+    <main>
+        <div class="container">
+            <h1><em>Please water me.</em>
+            </h1>
+        </div>
+        <div class="container">
+            <div>
+                <div class="bottom">
+                    <button class="btn" type="button" onclick="waterMe" id="WaterThePlant" value="Water"
+                        autofocus>Water</button>
+                </div>
+                <div class="plantcontainer">
+                    <!--Picture of Plant-->
+                    <div class="box1">
+                        <img class="plantimage" src="Images\plant1.png" alt="plant">
+                    </div>
+                    
+                </div>
+                    <!--Hydration Progress Bar-->
+                    <div class="box2">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="200" aria-valuemin="0"
+                                aria-valuemax="100">Hydration level
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+<div>
+    
+    <button class="clown-btn" id="clown-btn" onclick="clownscare()">Do not press this.</button>
+</div>
+    </main>
+    <script src="clownscare.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

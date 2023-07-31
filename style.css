@@ -1,0 +1,179 @@
+* {
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: dimgrey;
+    background-color: rgb(232,232,232);
+}
+
+header {
+    display : flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+
+.showDateTimeContainer{
+    display: flex;
+}
+
+.dropdown-btn, .btn, .progress-bar {
+    color : white;
+    border: 8px;
+    border-color: rgb(1, 26, 7);
+    background-color: rgb(126, 211, 133);
+    border-radius: 8px;
+    text-shadow: none;
+    font-size: 20px;
+
+}
+
+.dropdown-container:hover{
+    transform: scale(1.25);
+}
+
+.btn:hover{
+    transform: scale(1.25);
+}
+.dropdown-container {
+    position: relative;
+    display : inline-block;
+    font-weight:600;
+    margin: 5px;
+}
+
+.dropdown-content {
+   display: none;
+   position: absolute;   
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #83d39f;}
+
+.dropdown-container:hover .dropdown-content {display: block; border-radius: 8px;}
+
+.dropdown-container:hover .plantInforDropdown-btn {
+    background-color: #0a8919;
+}
+
+.showDateTimeContainer{
+    display: flex;
+}
+
+.showTime {
+    flex : 1;
+    
+}
+
+.showDate {
+    flex: 1;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    text-justify: auto;
+    
+}
+
+.container{
+    margin:auto; 
+    text-align: center; 
+    width: 90%; 
+    display: flex; 
+    justify-content: center; 
+    
+}
+
+.plantcontainer {
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+    text-align: center;
+    margin:auto; 
+ 
+}
+
+.plantimage {
+  align-items: stretch;
+}
+
+
+.box1 {
+    flex: 1;
+align-items: stretch;
+}
+
+.box2{
+  flex: 1; 
+}
+.progress{
+    border-radius: 8px;
+    background-color: aquamarine; 
+    padding: 1px;
+}
+
+
+.bottom {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+
+}
+
+.btn {
+    margin: auto;
+    border-radius: 8px;
+    width: 100px;
+    padding: 10px;
+}
+
+.bottomcontainer {
+    display : flex;
+    flex: no wrap;
+    border: 20px;
+
+    background-color: blueviolet;
+}
+
+.child1 {
+    flex: 1;
+    margin: 5px;
+    border: 20px;
+  
+    padding: 5pm;
+    height: 100px;
+    width: 100px;
+    background-color: lightcoral;
+}
+
+.child2 {
+    flex: 1;
+    margin: 5px;
+    border: 2px rgb(94, 3, 3);
+    height: 100px;
+    width: 100px;
+    background-color: chartreuse;
+}
+
+.lucius {
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+    border: 10px;
+    border-color: blue;
+    margin: 7px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
