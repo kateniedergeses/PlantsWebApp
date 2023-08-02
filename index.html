@@ -37,7 +37,6 @@
         </div>
         </div> 
     </header>
-
     <main>
         <div class="container">
             <h1><em>Please water me.</em>
@@ -46,33 +45,31 @@
         <div class="container">
             <div>
                 <div class="bottom">
-                    <button class="btn" type="button" onclick="waterMe" id="WaterThePlant" value="Water"
+                    <button class="btn" type="button" onclick="waterMe()" id="WaterThePlant" value="Water"
                         autofocus>Water</button>
                 </div>
                 <div class="plantcontainer">
-                    <!--Picture of Plant-->
                     <div class="box1">
                         <img class="plantimage" src="Images\plant1.png" alt="plant">
                     </div>
-                    
                 </div>
-                    <!--Hydration Progress Bar-->
                     <div class="box2">
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="200" aria-valuemin="0"
-                                aria-valuemax="100">Hydration level
+                        <div class="progress" id="waterprogress">
+                            <div class="progress-bar" id="waterprogressbar" role="progressbar" aria-valuenow="200" aria-valuemin="0"
+                                aria-valuemax="100">0%
+                            </div>
+                            <div class="waterAlert" id="wateralert">
                             </div>
                         </div>
                     </div>
-                
             </div>
         </div>
 <div>
-    
     <button class="clown-btn" id="clown-btn" onclick="clownscare()">Do not press this.</button>
 </div>
     </main>
     <script src="clownscare.js"></script>
+    <script src="waterMe.js"></script>
     <script src="app.js"></script>
 </body>
 

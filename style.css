@@ -21,7 +21,7 @@ header {
     display: flex;
 }
 
-.dropdown-btn, .btn, .progress-bar {
+.dropdown-btn, .btn, .progress {
     color : white;
     border: 8px;
     border-color: rgb(1, 26, 7);
@@ -72,7 +72,6 @@ header {
 
 .showTime {
     flex : 1;
-    
 }
 
 .showDate {
@@ -83,7 +82,6 @@ header {
 h1 {
     text-align: center;
     text-justify: auto;
-    
 }
 
 .container{
@@ -91,8 +89,7 @@ h1 {
     text-align: center; 
     width: 90%; 
     display: flex; 
-    justify-content: center; 
-    
+    justify-content: center;   
 }
 
 .plantcontainer {
@@ -101,7 +98,7 @@ h1 {
     column-gap: 5px;
     text-align: center;
     margin:auto; 
- 
+   
 }
 
 .plantimage {
@@ -111,17 +108,28 @@ h1 {
 
 .box1 {
     flex: 1;
-align-items: stretch;
+    align-items: stretch;
 }
 
 .box2{
   flex: 1; 
 }
-.progress{
-    border-radius: 8px;
-    background-color: aquamarine; 
-    padding: 1px;
+
+.progress {
+    border:15px;
+    border-color: #83d39f;
+    padding: 4px;
+    background-color:white;
+    width: 300px;
+    height: 50px;
 }
+.progress-bar {
+    border-radius: 8px;
+    background-color: rgb(121, 177, 241); 
+    font-size: medium;
+    width:0%;
+}
+
 
 
 .bottom {
@@ -139,41 +147,5 @@ align-items: stretch;
     padding: 10px;
 }
 
-.bottomcontainer {
-    display : flex;
-    flex: no wrap;
-    border: 20px;
 
-    background-color: blueviolet;
-}
-
-.child1 {
-    flex: 1;
-    margin: 5px;
-    border: 20px;
-  
-    padding: 5pm;
-    height: 100px;
-    width: 100px;
-    background-color: lightcoral;
-}
-
-.child2 {
-    flex: 1;
-    margin: 5px;
-    border: 2px rgb(94, 3, 3);
-    height: 100px;
-    width: 100px;
-    background-color: chartreuse;
-}
-
-.lucius {
-    width: 100px;
-    height: 100px;
-    background-color: cyan;
-    border: 10px;
-    border-color: blue;
-    margin: 7px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 
